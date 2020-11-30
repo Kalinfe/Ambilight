@@ -1,0 +1,30 @@
+﻿  Main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+D:\C++\Projects\AmbiLight\AmbiLight\include\GLFW\glfw3.h(123): message : see previous definition of 'APIENTRY'
+D:\C++\Projects\AmbiLight\AmbiLight\Main.cpp(92,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\C++\Projects\AmbiLight\AmbiLight\Main.cpp(93,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\C++\Projects\AmbiLight\AmbiLight\Main.cpp(94,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\C++\Projects\AmbiLight\AmbiLight\Main.cpp(102,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\C++\Projects\AmbiLight\AmbiLight\Main.cpp(121,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\C++\Projects\AmbiLight\AmbiLight\Main.cpp(122,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\C++\Projects\AmbiLight\AmbiLight\Main.cpp(265,2): warning C4551: function call missing argument list
+Main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwGetMonitors referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwGetMonitorPos referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwGetVideoMode referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwGetWindowSize referenced in function "void __cdecl writeSideGlare2(struct tagRGBQUAD *,struct GLFWwindow *,int,int)" (?writeSideGlare2@@YAXPAUtagRGBQUAD@@PAUGLFWwindow@@HH@Z)
+Main.obj : error LNK2019: unresolved external symbol _glfwSetWindowMonitor referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function "void __cdecl writeSideGlare2(struct tagRGBQUAD *,struct GLFWwindow *,int,int)" (?writeSideGlare2@@YAXPAUtagRGBQUAD@@PAUGLFWwindow@@HH@Z)
+Main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "void __cdecl writeSideGlare2(struct tagRGBQUAD *,struct GLFWwindow *,int,int)" (?writeSideGlare2@@YAXPAUtagRGBQUAD@@PAUGLFWwindow@@HH@Z)
+Main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "void __cdecl writeSideGlare2(struct tagRGBQUAD *,struct GLFWwindow *,int,int)" (?writeSideGlare2@@YAXPAUtagRGBQUAD@@PAUGLFWwindow@@HH@Z)
+Main.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol __imp__CorsairSetLedsColors referenced in function "void __cdecl writeMonitorToKeyboard(struct screenLed *,int,struct GLFWwindow *,struct GLFWwindow *)" (?writeMonitorToKeyboard@@YAXPAUscreenLed@@HPAUGLFWwindow@@1@Z)
+Main.obj : error LNK2019: unresolved external symbol __imp__CorsairGetLedPositions referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol __imp__CorsairPerformProtocolHandshake referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol __imp__CorsairGetLastError referenced in function _main
+D:\C++\Projects\AmbiLight\AmbiLight\libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\C++\Projects\AmbiLight\Debug\AmbiLight.exe : fatal error LNK1120: 18 unresolved externals
